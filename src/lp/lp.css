@@ -1,0 +1,172 @@
+.lander{
+    cursor:default;
+    margin:0;
+    overflow:hidden;
+    /*background issues*/
+    background:linear-gradient(120deg, rgb(12, 5, 26), #6f58c9);
+    background-size: 40px;
+}
+  .lp-header{
+    width:100%;
+    padding:10px 20px;
+    padding-top:40px;
+    background-color: transparent;
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  .lp-nav{
+    background: linear-gradient(180deg, white, violet);
+    -webkit-background-clip: text;
+    color:transparent;
+    display:inline-block;
+    cursor:pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left:2rem;
+    text-decoration:none;
+  }
+  .lp-options ul{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    gap:30px;
+    margin-right:20px;
+    list-style: none;
+  }
+  .lp-navli{
+    background: linear-gradient(180deg, white, skyblue);
+    -webkit-background-clip: text;
+    color:transparent;
+    display:inline-block;
+    cursor:pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    white-space:nowrap;
+  }
+
+  .lp-sec{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    width:100vw;
+    z-index:10;
+    overflow-y:scroll;
+  }
+
+  .lp-sec h1{
+    font-size: 9rem;
+    color: white;
+    padding:20px 10px;
+    white-space:nowrap;
+    text-align: center;
+    font-weight: 100;
+
+  }
+  .lp-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width:700px;
+    margin:0vw 4vw;
+    padding:20px;
+
+  }
+  .lp-desc h3{
+    color: salmon;
+    font-weight: 400;
+    font-size:0.95rem;
+  }
+
+.lp-desc p{
+    color:silver;
+    font-weight: 300;
+    font-size:0.89rem;
+    text-align:center;
+}
+.lp-sec label{
+    color: whitesmoke;
+    white-space:nowrap;
+    margin-right: 14.8em;
+    font-weight:500;
+}
+.lp-mail{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+.lp-mail input{
+    padding:8px;
+    background:transparent;
+    color: whitesmoke;
+    caret-color: hsl(0, 0%, 0%);
+    border:none;
+    display:flex;
+    width:300px;
+    height:40px;
+    border:1px solid whitesmoke;
+    margin:4px 8px;
+    font-size:0.8rem;
+    font-family:"mulish",'arial','sans-serif';
+    font-weight:700;
+    font-style:oblique;
+}
+.lp-mail input:focus-visible{
+    border: 2px solid black;
+    background-color: hsla(0, 0%, 30%,0.75);
+
+}
+.lp-mail button{
+    background-color: #161130;
+    color:white;
+    border: 1px solid white;
+    padding:13px 20px;
+    cursor:pointer;
+    display:flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-weight:100;
+    transition: background-color 0.4s ease 0s, border 0.4s ease 0s,color 0.4s ease 0s;
+}
+.lp-mail button:hover{
+    border: 1px solid hsla(0, 0%, 20%,1);
+    background-color:hsla(0, 0%, 20%,0.9);
+    color:hsl(0, 0%, 90%);
+    
+}
+.lp-credits{
+    z-index:20;
+    overflow-y:scroll;
+    width: 100vw;
+    height: 60vh;
+    padding-top:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: 400;
+    text-align:center;
+    font-size:0.8rem;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+}
+.lp-credits hr{
+  width:70%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 0.89px solid whitesmoke;
+  margin: 1em 0;
+  padding: 0;
+  backdrop-filter: blur(10px);
+}
+.lp-credits p{
+
+}

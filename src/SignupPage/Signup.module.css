@@ -1,0 +1,158 @@
+input,select:focus{
+    outline: black;
+}
+#signup-box input:focus-visible{
+    border: 1.5px solid black;
+}
+#container{
+    background: linear-gradient(60deg,
+                                #6f58c9, white );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1rem;
+    flex-direction: column;
+    overflow-y:hidden;
+    padding-bottom:100px; 
+    background-size:30px;   
+    
+}
+#signup-box{
+    width: 350px;
+    min-height: 500px;
+    background-color: white;
+    backdrop-filter:blur(20px);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:8px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(120deg,
+                                        rgba(255, 255, 255, 0.6),
+                                        hsla(0, 0%, 2%, 0.1));
+    
+}
+#heading{
+    font-weight:200;
+    font-size:4rem;
+    color: black;
+}
+#signup-box code{
+    color: dimgray;
+    font-size:0.8rem;
+
+}
+#uname-box,#email-box,#pwd-box,#confirm-box{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#uname,#email,#branch,#year,#pwd,#confirm-pwd{
+    font-size: 1rem;
+    font-family:"mulish","arial","sans-serif";
+    color:hsl(0, 0%, 10%);
+    font-style: italic;
+
+}
+#uname-input,#email-input,#pwd-input,#confirm-input{
+    font-size: 0.8rem;
+    font-weight:700;
+    font-style:oblique;
+    padding: 9px 10px;
+    font-family: "mulish","sans-serif","arial";
+    color: hsl(0, 0%, 20%);
+    
+}
+#mail-check,#pwd-match{
+    color: #E60000 ;
+    font-size: 0.8rem;
+    font-style:oblique;
+    font-weight:500;
+    margin-left:5px;
+}
+#mail-check{
+    text-shadow: 0 0 1px red, 0 0 4px #ede9ff;
+}
+#pwd-match{
+    text-shadow :0 0 0.5px red, 0 0 6px #ccc5ff;
+
+}
+#acadamic-box{
+    width: 85%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+#acadamic-box input:focus-visible{
+    border: 1.5px solid rebeccapurple;
+}
+#branch-input,#year-input{
+    width: 100px;
+    height: 30px;
+    font-size: 0.8rem;
+    font-weight:700;
+    font-style:oblique;
+    color: darkslategray;
+}
+#btn-box{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#register-btn{
+    color: #6f58c9;
+    background-color: white;
+    font-size: 1.2rem;
+    border: 1px solid #6f58c9;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:10px 30px;
+    transition: color 0.2s ease-in-out,background-color 0.2s ease-in-out,
+    border 0.2s ease-in, transform 0.2s ease-in;
+}
+#register-btn:hover{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    transform: translateY(8px);
+}
+#dialog-title{
+    color: #6f58c9;
+}
+.dialogMsg {
+    color: red; 
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .checkbutton {
+    background-color: #6f58c9; /* Primary color for the button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .checkbutton:hover {
+    background-color: #5846a3; /* Darken color on hover */
+  }
+  .checkbutton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(111, 88, 201, 0.4); /* Focus effect */
+  }
+  .otpinput{
+    padding:3px;
+    font-style: "mulish", 'arial';
+    border:none;
+    border-bottom:1px solid black;
+    text-align:center;
+  }
+ 

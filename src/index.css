@@ -1,0 +1,14 @@
+body{
+  background-color: #f9f9fb;
+  font-family: "mulish",'sans-serif','arial';
+  overflow-x:hidden;
+}
+.quill > .ql-container > .ql-editor.ql-blank::before{
+  font-size: 12px;
+  padding-left:10px;
+  color: gray;
+}
+::-webkit-scrollbar {
+  width:0px;
+}
+

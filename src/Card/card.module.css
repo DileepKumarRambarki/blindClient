@@ -1,0 +1,130 @@
+.cardBox{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    min-height:180px;
+    min-width: 350px;
+    max-height:310px;
+    padding: 16px;
+    gap:7px;
+    margin-bottom:10px;
+    position:relative;
+    transition : box-shadow 0.1s ease-in-out;
+}
+.cardBox:hover{
+    box-shadow: 0 4px 8px 0 rgba(101,105,108,0.1);
+}
+.userimg{
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+.cardDetails{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.cardtag{
+    display:flex;
+    flex-direction: column;
+    margin-left:15px;
+    gap:4px;
+}
+.comtime{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.branchuser{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    line-height:1rem;
+}
+.community{
+    color:black;
+    font-size:1.1rem;
+    font-weight:bold;
+    cursor: pointer;
+    white-space: wrap;
+    font-family:'mulish','arial','sans-serif';
+}
+.time{
+    font-size:12px;
+    color:#989a9e;
+    font-weight:700;
+}
+.branch{
+    font: size 11px;
+    color: #545459;
+    font-weight:400;
+}
+.username{
+    font-size:12px;
+    color: #545459;
+    font-weight:500;
+    font-family:'mulish','arial','sans-serif';
+}
+.dot{
+    color:gray;
+    font-weight:700;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:none;
+    margin-right:none;
+    padding-top:3.5px;
+}
+.likebtn{
+    margin:5px;
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+.cardpost{
+    cursor:pointer;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height:2rem;
+}
+.cardposttitle{
+    color:#222222;
+    font-size:18px;
+}
+.cardpostcontent{
+    color:#545459;
+    font-size:14px;
+}
+.cardFooter {
+    display: flex;
+    justify-content: left;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+.iconWrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right:20px;
+    font-size: 0.88rem;
+    font-family: 'mulish','arial';
+    font-weight: 400;
+    color: #6f6f6f;
+    font-style: italic;
+}
+.icon {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #6f6f6f;
+    transition: color 0.3s ease-in-out;
+}
+.iconLiked{
+    color:rgb(255, 15, 95);
+    font-size:16px;
+    margin-right:5px;
+    transition: color 0.3s ease-in-out;
+}

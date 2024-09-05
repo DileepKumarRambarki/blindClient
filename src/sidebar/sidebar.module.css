@@ -1,0 +1,94 @@
+.sidebar{
+    height:100%;
+    width:250px;
+    background-color: #f9f9fb;
+    position:fixed;
+    z-index:30;
+    margin-top: 70px !important;
+}
+.unscroll{
+    border-bottom: 1px solid #d3d3d3; 
+    padding:15px; 
+}
+.feedicon,.pollicon{
+    height:1rem;
+    filter: invert(36%) sepia(57%) saturate(1082%)
+     hue-rotate(220deg) brightness(91%) contrast(85%);
+    border:none;
+    cursor:pointer;
+}
+.feeda,.polla{
+    font-weight: 600;
+    text-decoration:none;
+    color:hsla(0, 0%, 4%, 0.804);
+    margin-left:2px;
+    }
+.feed,.poll{
+    width:250px;
+    display:flex;
+    font-size:1.2em;
+    padding: 10px 15px;
+    border-radius:10px;
+    margin-bottom: 5px;
+    align-items:center;
+    cursor: pointer;
+    transition : ease-in-out 0.1s;
+
+}
+.poll{
+    margin-bottom: 0.6rem;
+}
+.feed:hover,.poll:hover{
+    background-color: rgba(210, 216, 234,0.7);
+}
+.scrollable{
+    margin-top:0.5rem;
+    width:250px;
+    height:100%;
+    overflow-y:scroll;
+    background-color: #f9f9fb;
+    padding:15px;
+    scrollbar-gutter:stable;
+}
+.scrollable a{
+    display:block;
+    color: #333;
+    padding:10px 15px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border:none;
+}
+.scrollable a:hover{
+    background-color: rgba(210, 216, 234,0.7);
+    text-decoration: none;
+    border:none;
+}
+.scrollable div{
+    margin-bottom:15px;
+}
+.scrollable h3{
+    margin-top:0;
+    color: black;
+    margin-bottom:10px;
+}
+.scrollable::-webkit-scrollbar {
+    width:6px;
+  }
+  .scrollable::-webkit-scrollbar-track {
+    background: #f9f9fb;
+    border-radius: 10px;
+  }
+  .scrollable::-webkit-scrollbar-thumb {
+    background: #bfc1c5;
+    border-radius:10px;
+  }
+  .scrollable::-webkit-scrollbar-thumb:hover {
+    background: rgb(170, 170, 170) ;
+  }
+.scrollable::after{
+    content: ' ';
+    display:block;
+    height:180px;
+    margin-bottom: 1.1rem;
+}
